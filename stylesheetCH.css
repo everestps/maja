@@ -35,10 +35,6 @@
   vertical-align: middle;
 }
 
-.intro {
-  color: #353535; 
-  text-align: center
-}
 
 .red {
   color: crimson;
@@ -60,18 +56,11 @@
   text-align: left;
 }
 
-ul, ol {
-  text-align: left
-}
-
 p {
   text-align: center;
   margin-left: 1em;
 }
 
-body > ul > li {
-  margin-top: 1em;
-}
 body {
   font-family: sans-serif;
   line-height: 130%;
@@ -81,19 +70,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #3571A3;
 }
-ul > li {
-  color: #353535;
-}
+
 h1 > p {
   color: #353535;
-}
-
-body > ul > div > li > ul > li {
-  color: purple;
-}
-
-ul {
-  list-style-type: none;
 }
 
 img {
