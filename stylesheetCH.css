@@ -21,38 +21,23 @@
 	color: crimson; 
 	background-color: #242424; /* Both of these values create the "Rollover effect*/
 	} 
-#right {
-  float: right;
+#mainbody {
+  text-align: center;
 }
 
-#left {
-  float: left;
+.container {
+  display: table;
+  margin: auto;
 }
 
-/*.toplist {	* This is the top-level background of the items *
-	background-color: #ffdddd;*/
+.container > div {
+  display: table-cell;
+  vertical-align: middle;
 }
-div.toplist div {	/* This style applies to the divs inside the top */
-	padding-left: 15px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.firstlevel {	/* These list items indent a little bit */
-	margin-left: 1em;
-    text-decoration: underline;
-}
-.secondlevel {	/* These list items indent more */
-	margin-left: 3em;
-    color: #353535;
-}
-.thirdlevel {
-  margin-left: 5em;
-  color: #353535;
-}
-
 
 .intro {
-  color: #353535; text-align: center
+  color: #353535; 
+  text-align: center
 }
 
 .red {
@@ -81,6 +66,7 @@ ul, ol {
 
 p {
   text-align: center;
+  margin-left: 1em;
 }
 
 body > ul > li {
@@ -89,7 +75,6 @@ body > ul > li {
 body {
   font-family: sans-serif;
   line-height: 130%;
-  
   background-color: #FFFAED;
   text-align: center;
 }
@@ -99,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 ul > li {
   color: #353535;
 }
-h3 > p {
+h1 > p {
   color: #353535;
 }
 
@@ -111,6 +96,10 @@ ul {
   list-style-type: none;
 }
 
+img {
+  height: 15em;
+  width: 15em;
+}
 /*color list: 
 regular text: 353535
 headings: 357143
